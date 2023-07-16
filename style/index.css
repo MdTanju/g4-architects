@@ -98,17 +98,45 @@ nav a {
  }
 
 .Some-Facts  {
-
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.title-Some-facts {
+    font-size: 35px;
+}
+.faccts-decri {
+    color: #131313;
+    font-size: 1rem;
+    color: darkgrey;
 }
 
 
+.cardbox {
+    display: flex;
+    justify-content: space-around;
+    margin:  50px;
+}
+.cardbox  .card {
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px  ;
+    width: 140px;
+    height: 140px;
+   
 
+}
+.card-statd {
+    font-size: 2rem;
+    margin-top: 0;
 
-
-
-
-
-
+}
+.card-title {
+    font-weight: 600;
+    color: #424242;
+    font-size: 1.15rem;
+    margin-top: -10;
+}
 
 
 @media screen and (max-width:576px) {
@@ -117,12 +145,15 @@ nav a {
     }
     nav ul {
         margin: 5px;
+
     }
     nav ul li {
         margin: 5px;
+       margin-right: 40px;
+      
     }
     nav ,
-    .teams-img-container ,
+    .teams-img-container , .cardbox ,
      .teams-container {
         flex-direction: column;
     }
@@ -136,5 +167,15 @@ nav a {
         padding: 20px;
         padding-right: 20px;
     }
-    
+    .Some-Facts {
+        padding: 20px;
+    }
+    .cardbox {
+        margin: 20px;
+        
+    }
+    .card{
+        margin-top: 10px;
+        padding: 20px;
+    }
 }
