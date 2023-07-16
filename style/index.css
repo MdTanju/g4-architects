@@ -123,9 +123,10 @@ nav a {
     padding: 30px  ;
     width: 140px;
     height: 140px;
+    margin-left: 20px;
    
-
 }
+
 .card-statd {
     font-size: 2rem;
     margin-top: 0;
@@ -136,6 +137,65 @@ nav a {
     color: #424242;
     font-size: 1.15rem;
     margin-top: -10;
+}
+.our-sport {
+    text-align: center;
+    align-items: center;
+}
+.our-decri {
+    font-size: 20px;
+}
+.our-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #424242;
+}
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors  .imgsponsors {
+    width: 140px;
+    height: 140px;
+    border: 1px solid aliceblue;
+    margin-top:10px;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    outline:aliceblue ;
+    box-shadow: 13px 14px 20px aliceblue;
+    border-radius: 19px;
+    margin-top: 20px;
+
+}
+
+.imgsponsors  img {
+    width: 70%;
+    margin-top: 60px;
+}
+
+
+
+footer {
+    max-width: 70%;
+    max-height: 90px;
+    margin: 0 auto;
+    background-color: bisque;
+    margin-top:50px ;
+    margin-bottom: 60px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.footertext p {
+   font-size: 20px;
+   padding-top: 20px;
+   text-transform: capitalize;
+}
+.footertext h6 {
+    font-size: 15px;
+    margin-top: -15px;
 }
 
 
@@ -153,8 +213,11 @@ nav a {
       
     }
     nav ,
-    .teams-img-container , .cardbox ,
-     .teams-container {
+    .sponsors ,
+    .teams-img-container ,
+     .cardbox ,
+     .teams-container
+     .sponsors   {
         flex-direction: column;
     }
     .btn-primary {
@@ -169,13 +232,21 @@ nav a {
     }
     .Some-Facts {
         padding: 20px;
+        gap: 10px;
     }
     .cardbox {
         margin: 20px;
+        gap: 10px;
         
     }
     .card{
-        margin-top: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
         padding: 20px;
+    }
+
+    .imgsponsors {
+        margin: 10px;
+        margin-left: 80px;
     }
 }
