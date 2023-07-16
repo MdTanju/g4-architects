@@ -85,7 +85,7 @@ nav a {
      }
      .teams-content {
         padding-right: 70px;
-        padding-left: 120px;
+       
      }
 
      .teams-title  ,.Quick{
@@ -258,72 +258,62 @@ footer {
 }
 
 
-@media screen and (max-width:576px) {
+
+@media screen and (max-width:576px){
     header {
         padding: 20px;
     }
-    nav ul {
-        margin: 5px;
 
-    }
-    nav ul li {
-        margin: 5px;
-       margin-right: 40px;
-      
-    }
     nav ,
-    .sponsors ,
-    .teams-img-container ,
-     .cardbox ,
-     .teams-container ,
-     .Features ,
-     .teams-container
-     .sponsors   {
+    .Features ,
+    .cardbox ,
+    .sponsors
+    {
         flex-direction: column;
     }
-    .btn-primary {
-        padding: 5px;
+    .teams-container {
+        flex-direction: column-reverse;
     }
-    .teams-img-container{
-        grid-template-columns: 1fr;
-    }
-    .teams-container ,.teams-content {
-        padding: 20px;
-        padding-right: 20px;
-    }
-    .Some-Facts {
-        padding: 20px;
-        gap: 10px;
-    }
-    .cardbox {
-        margin: 20px;
-        gap: 10px;
-        
-    }
-    .card{
-        margin-left: 10px;
-        margin-top: 20px;
+    .teams-container {
         padding: 20px;
     }
-
-    .imgsponsors {
-        margin: 10px;
-        margin-left: 80px;
-    }
-
-    .featurestext {
+    .teams-img-coninetar ,.teams-content {
+        width: 90%;
         padding: 20px;
     }
-    .Featuresbox {
-        width:200px;
-    }
-    .Features-img-box {
-        margin-top: 10px;
-        width: 80%;
-    }
-
     .Featuresbox ,.Features-img-box {
-        width: 80%;
+        width: 90%;
         padding: 20px;
+    }
+    .featurestext {
+        width: auto;
+    }
+     .Some-Facts , .cardbox  {
+        padding: 20px;
+        margin-top: 10px;
+    }
+   
+    
+    .card {
+        margin-top: 20px;
+        margin-right: 80px;
+    }
+    .our-sport {
+        padding: 20px;
+    }
+    .imgsponsors {
+        margin-left: 70px;
+    }
+    .footertext {
+        width: auto;
+    }
+    .btn-primary {
+        width: auto;
+        height: ;
+        font-size: 20px;
+        background-color: #ff900e;
+        border-radius: 9px;
+        cursor: pointer;
+        border: 0;
     }
 }
