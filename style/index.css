@@ -80,7 +80,7 @@ nav a {
         gap: 20px
      }
      .teams-img-container img {
-        width: 90%;
+        width: 100%;
         height: auto;
      }
      .teams-content {
@@ -282,7 +282,8 @@ footer {
         padding: 20px;
     }
     .teams-img-coninetar img {
-        width: 70%;
+        width: 90%;
+        height: auto;
         margin-top: 20px;
         
      
